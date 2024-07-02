@@ -3,7 +3,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      Weather App
       <p>
         This project was created by Nataliia Opanasiuk and is {""}
         <a
@@ -11,6 +11,10 @@ export default function App() {
           target="_blank"
         >
           open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a href="https://react-weather-app-on.netlify.app/" target="_blank">
+          hosted on Netlify
         </a>
         .
       </p>
